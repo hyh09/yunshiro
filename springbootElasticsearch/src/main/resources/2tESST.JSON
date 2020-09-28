@@ -1,0 +1,46 @@
+{
+  "took" : 2,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 3,
+      "relation" : "eq"
+    },
+    "max_score" : 0.11859183,
+    "hits" : [
+      {
+        "_index" : "scoring",
+        "_type" : "doc",
+        "_id" : "1",
+        "_score" : 0.11859183,
+        "_source" : {
+          "name" : "first document"
+        }
+      },
+      {
+        "_index" : "scoring",
+        "_type" : "doc",
+        "_id" : "3",
+        "_score" : 0.11859183,
+        "_source" : {
+          "name" : "3 document"
+        }
+      },
+      {
+        "_index" : "scoring",
+        "_type" : "doc",
+        "_id" : "2",
+        "_score" : 0.07893884,
+        "_source" : {
+          "name" : "孙悟空2 document"
+        }
+      }
+    ]
+  }
+}
